@@ -158,4 +158,7 @@ These soft limits are preconfigured limits on how much of a particular resource 
 
 # Reverse Proxy-
 a server that sits in front of web servers and forwards client (e.g. web browser) requests to those web servers. Reverse proxies are typically implemented to help increase security, performance, and reliability.
+------------
+
+# EC2 Instances
 
