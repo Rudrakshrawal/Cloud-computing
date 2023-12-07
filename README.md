@@ -120,6 +120,42 @@ These soft limits are preconfigured limits on how much of a particular resource 
 - - • Amazon S3 Glacier Flexible Retrieval----If someone is accessing it more frequently
 - - • Amazon S3 Glacier Deep Archive----If the data is surely not to be opened but only unnder very very important and existential circumstances
 - - • Amazon 53 Intelligent Tiering----- TAo intelligently tell the AWS to keep the data of a certain period and remove the other and etc.
+-----------------------
 
 
+
+
+
+# EC2 INSTANCES TYPE
+***Instance store** is ideal for temporary storage of information that changes frequently, such as buffers, caches, scratch data, and other temporary content.*
+<img width="561" alt="Screenshot 2023-12-07 at 12 52 31 PM" src="https://github.com/Rudrakshrawal/Cloud-computing/assets/144530387/004314c8-995c-471d-9bda-8ef9936fd015">
+- C type instances are cpu intensive
+- M type are general purpose instances. Balanced memory and cpu.
+- R type have more ram
+- T type instances should be used if we have to use them in optimised way ie. if you have to use all the 4 cores provided to you ,they can be accessed at a very nominal price and if not in use , the 3 cores will be rent out to someone else.
+- D type have huge instance store.
+- I type have the fastest IOPS provider.
+
+- micro - 1cpu core and 1 gb ram only and some levelv of network
+
+
+
+- • On-Demand Instances - short workload, predictable pricing, pay by second
+- • Reserved (1 & 3 years)
+- • Reserved Instances - commitment to an amount of usage, long workload, 1
+- • 3 years uptront commitment, can save up to 72% on billing.
+- • Spot Instances - short workloads, cheap, can lose instances (less reliable)
+- • Dedicated Hosts - book an entire physical server, control instance placement, most expensive EC2, use case - BYOL, compliance or regulations
+- • Dedicated Instances - no other customers will share your hardware
+
+# ELB (Elastic Load Balancers)
+- • Implementation of Horizontal Scaling
+- • Required for High Availability
+- • Types of Load Balancer
+- - • Classic Load Balancer - Layer 4 & 7
+- - • Application Load Balancer - Layer 7
+- - • Network Load Balancer - Layer 4
+
+# Reverse Proxy-
+a server that sits in front of web servers and forwards client (e.g. web browser) requests to those web servers. Reverse proxies are typically implemented to help increase security, performance, and reliability.
 
